@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
 
 body{
    background-color: rgb(2, 2, 54);
+}
+
+h1{
+    color: white;
+    font-size: 100px;
 }
