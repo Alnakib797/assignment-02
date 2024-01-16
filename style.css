@@ -441,13 +441,106 @@ h2 {
   margin: 0 auto;
   border-radius: 16px;
   padding: 2vw 2vw;
+  margin-bottom: 4vw;
 
+}
+
+/*section 05 text*/
+
+.section-5-text{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 4vw;
+}
+
+.section-5-text h1{
+  font-size: 45px;
+  font-weight: 800;
+  color: #131318;
+}
+
+.section-5-text p{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.70);
+}
+
+/*section 05* img*/
+ 
+.section-5-img{
+  width: 80%;
+  height: auto;
+  background-image: url(Images/Group\ 39.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 4vw;
+  padding-bottom: 5vw;
+}
+
+.section-5-img-text{
+  display: flex;
+  /* background-color: brown; */
+  position: relative;
+  top: 130px;
+  left: 610px;
+  z-index: 500;
+}
+.section-5-img-text>.frame-1, .frame-2, .frame-3{
+  display: flex;
+  margin-right: 1vw;
+}
+
+.section-5-img-text .f-1, .f-2, .f-3{
+  margin-right: .5vw;
+}
+.section-5-text-2{
+  background-color: rgba(255, 255, 255, 0.587);
+  width: 600px;
+  height: 400px;
+  padding: 4vw 4vw;
+  margin: 2vw 35vw;
+  border-radius: 16px;
+  backdrop-filter: blur(2.5px);
+  
+}
+
+.section-5-text-2 h1{
+  font-size: 24px;
+  font-weight: 800;
+  color: #131318;
+  margin-top: 3vw;
+}
+
+.section-5-text-2 p{
+  font-size: 18px;
+  font-weight: 400;
+  color:#5A5A5D;
+}
+
+.section-5-text-2 .price{
+  color: #ff7700;
+  margin-top: 1vw;
+}
+
+.section-5-text-2>button{
+  color: #ffffff;
+  background-color: #ff7700;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  border-radius: 16px;
+  padding: 15px 40px;
+  margin-bottom: 5vw;
 }
 
 
 
 
-/* Responsive */
+
+/* Responsive------------------------------------- */
 
 @media screen and (max-width: 550px) {
   .left-nav h1 {
@@ -559,6 +652,19 @@ h2{
 
 
 /*section 4*/
+.section-4-bottom-1{
+  flex-direction: column;
+}
+
+.section-4-bottom-left,
+.section-4-bottom-right,
+.section-4-bottom-2{
+  width: 400px;
+  height: 350px;
+  padding: 4vw;
+}
+
+/*section 05*/
 
 
 
