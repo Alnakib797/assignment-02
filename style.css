@@ -14,7 +14,7 @@ nav {
   width: 80%;
   /* height: 60px; */
   /* background-color: orangered; */
-  margin: 40px auto;
+  margin: 4vh auto;
   display: flex;
 }
 
@@ -43,11 +43,14 @@ nav {
   /* background-color: rgb(0, 0, 0); */
 }
 
+/*dropdown menu*/
+
+
 .right-nav ul {
   display: flex;
   /* background-color: #FF5400; */
   justify-content: space-between;
-  margin: 20px 0;
+  margin: 3vh 0;
 }
 
 .right-nav ul li {
@@ -71,8 +74,9 @@ nav {
     width: 80%;
     margin: auto;
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
-
-    height: 75vh;
+    text-align: center;
+    justify-content: center;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,28 +85,107 @@ nav {
 
 .bg-img{
     width: 100%;
-    height: 75vh;
-    background-color: #00000072;
+    height: auto;
+    background-color: #00000086;
     border-radius: 16px;
 }
 
 .hero-text{
     /* background-color: #ff5400; */
-    padding: 0 300px;
-    padding-top: 100px;
+    padding: 5vw 15vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text h1{
     font-size: 68px;
     font-weight: 800;
     color: white;
+    padding-bottom: 2.5vw;
 }
 
 .hero-text p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     color: white;
+    /* padding: 2vw; */
+    margin-bottom: 5vw;
+}
+
+.hero-button{
+  background-color: rgba(255, 255, 255, 0.342);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 16px;
+  margin-bottom: 4vh;
+}
+
+.hero-button input{
+  width: 180px;
+  height: 60px;
+  background-color: #fefeff;
+  color: rgba(19, 19, 24, 0.50);
+  border: none;
+  margin: 2vh .3vw;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero-button .button-1{
+  padding-left: 1vw;
+}
+
+.hero-button .button-2{
+  background-color: #ff5400;
+  color: #fefeff;
+}
+
+.hero-button .button-2:hover{
+  cursor: pointer;
+  background-color: #ff7700;
+}
+
+
+/* media quarey */
+
+@media screen and (max-width: 550px) {
+  .left-nav h1 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .left-nav img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .right-nav{
+    display: none;
+  }
+  .hero-text{
+    /* background-color: #ff5400; */
+    padding: 5vw 6vw;
     justify-content: center;
     align-items: center;
+}
+
+   .hero-text h1{
+    font-size: 25px;
+   }
+   .hero-text p{
+    font-size: 15px;
+    line-height: 25px;
+   }
+ 
+   .hero-button input{
+    width: 320px;
+    height: 60px;
+    font-size: 18px;
+    margin: 3vw 0;
+  }
+
+
 }
 
