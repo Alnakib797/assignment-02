@@ -10,6 +10,8 @@ body {
   height: 100%;
 }
 
+/* section 01*/
+
 nav {
   width: 80%;
   /* height: 60px; */
@@ -81,6 +83,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
+    margin-bottom: 4vw;
 }
 
 .bg-img{
@@ -148,7 +151,93 @@ nav {
 }
 
 
-/* media quarey */
+/*section 02*/
+
+.section-2{
+  /* background-color: aqua; */
+  width: 80%;
+  /* height: 80vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 4vw;
+}
+
+.section-2-text{
+  width: 100%;
+  /* height: 100%; */
+  /* background-color: #9f9fff; */
+  margin-right: 2vw;
+  margin-bottom: 4vw;
+}
+
+.section-2-text h1{
+  font-size: 48px;
+  font-weight: 800;
+  color: #131318;
+  margin-bottom: 2vw;
+}
+
+.section-2-text p{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.70);
+  margin-bottom: 2vw;
+}
+
+.section-2-text ul {
+  padding-left: 2vw;
+}
+.section-2-text ul li{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.70);
+  margin-bottom: 2vw;
+}
+
+.read-button{
+  width: 200px;
+  height: 60px;
+  background-color: #ff7700;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.section-2-img{
+ /* background-color: #ff5400; */
+ width: 100%;
+ min-height: 650px;
+ background-image: url(Images/Rectangle\ 4.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 16px;
+}
+
+.section-2-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*section 03*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
 
 @media screen and (max-width: 550px) {
   .left-nav h1 {
@@ -164,12 +253,15 @@ nav {
   .right-nav{
     display: none;
   }
+
+  /*hero-section*/
+
   .hero-text{
     /* background-color: #ff5400; */
     padding: 5vw 6vw;
     justify-content: center;
     align-items: center;
-}
+  }
 
    .hero-text h1{
     font-size: 25px;
@@ -186,6 +278,27 @@ nav {
     margin: 3vw 0;
   }
 
+  /*section 02*/
+
+  .section-2-text h1{
+    font-size: 25px;
+    font-weight: 800; 
+  }
+
+  .section-2-text p{
+    font-size: 18px;
+    font-weight: 400; 
+  }
+
+  .section-2{
+    flex-direction: column;
+  }
+ 
+  .section-2-img{
+    /* background-color: #ff5400; */
+    width: 100%;
+    min-height: 450px;
+  }
+
 
 }
-
